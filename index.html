@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title>FoodCourt.com</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading">
+    <h2>FoodCourt🍕</h2>
+    </div>
+    <div id="heading2">
+        <input type="text" placeholder="Enter a item here..." id="food">
+        <button id="button">SAVE</button>
+    </div>
+    <ul id="heading3">
+            <li class="fooditems"> 
+            <div>Chicken</div>
+              <div onclick="removeItem(event)">
+                  <i class="fa fa-xmark" ></i>
+        </div>
+        </li>
+        <li class="fooditems">
+            <div>Maagi</div>
+            <div onclick="removeItem(event)">
+                <i class="fa fa-xmark"></i>
+        </div>
+        </li>
+        <li class="fooditems">
+            <div>Pizza</div>
+             <div onclick="removeItem(event)">
+                 <i class="fa fa-xmark"></i>
+        </div>
+        </li>
+
+    </ul>
+    <script src="index.js"></script>
+</body>
+
+
+
+
